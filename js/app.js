@@ -37,7 +37,7 @@ singBtn.forEach((btn) => {
   });
 });
 
-// ======================= slider ==========================
+// ======================= slider side ==========================
 
 function moveSlider() {
   let index = this.dataset.value;
