@@ -1,6 +1,6 @@
 const inputs = document.querySelectorAll(".formapp__input");
 const password = document.querySelector(".password__input");
-const passwordToggle = document.querySelector(".formapp__input--aya");
+const passwordToggle = document.querySelector(".formapp__input--eye");
 const singBtn = document.querySelectorAll(".formapp__toggleBtn");
 const main = document.querySelector("main");
 const images = document.querySelectorAll(".image");

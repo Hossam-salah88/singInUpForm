@@ -196,7 +196,7 @@
     color: #151111;
     transition: 0.4s;
 
-    &--aya {
+    &--eye {
       font-size: 0.95rem;
       color: #bbb;
       position: absolute;
@@ -205,8 +205,28 @@
       transform: translateY(-50%);
       cursor: pointer;
 
-      &.singIn__aya {
+      @media (max-width: 479px) {
+        top: 34%;
+      }
+
+      @media (max-width: 390px) {
+        top: 31%;
+      }
+
+      &.singIn__eye {
         top: 50%;
+
+        @media (max-width: 850px) {
+          top: 53%;
+        }
+
+        @media (max-width: 600px) {
+          top: 50%;
+        }
+
+        @media (max-width: 415px) {
+          top: 47%;
+        }
       }
     }
 

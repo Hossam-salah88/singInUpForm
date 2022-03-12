@@ -315,7 +315,7 @@ img {
   transition: 0.4s;
 }
 
-.formapp__input--aya {
+.formapp__input--eye {
   font-size: 0.95rem;
   color: #bbb;
   position: absolute;
@@ -326,8 +326,38 @@ img {
   cursor: pointer;
 }
 
-.formapp__input--aya.singIn__aya {
+@media (max-width: 479px) {
+  .formapp__input--eye {
+    top: 34%;
+  }
+}
+
+@media (max-width: 390px) {
+  .formapp__input--eye {
+    top: 31%;
+  }
+}
+
+.formapp__input--eye.singIn__eye {
   top: 50%;
+}
+
+@media (max-width: 850px) {
+  .formapp__input--eye.singIn__eye {
+    top: 53%;
+  }
+}
+
+@media (max-width: 600px) {
+  .formapp__input--eye.singIn__eye {
+    top: 50%;
+  }
+}
+
+@media (max-width: 415px) {
+  .formapp__input--eye.singIn__eye {
+    top: 47%;
+  }
 }
 
 .formapp__input.active {
